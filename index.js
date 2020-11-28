@@ -18,7 +18,7 @@ const questions = [
   },
   {
     message: "Enter the GitHub contributors usernames if any.",
-    name: "Contributers",
+    name: "Contributors",
   },
   {
     message: "Provide examples on how to test your projct.",
