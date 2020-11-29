@@ -12,15 +12,38 @@ function generateMarkdown(answers) {
     email,
   } = answers;
 
-  return `#title: ${title},
-  Description: ${description},
-  Installation: ${installation},
-  Contributors: ${contributors},
-  Test: ${test},
-  License: ${license},
-  License URL: ${licenseUrl},
-  GitHub UserName: ${githubUsername},
-  Email: ${email}
+  return `# Title: ${title}
+  ## Description:
+
+  ${description}
+
+  ## Installation: 
+
+  ${installation}
+
+  ## Contributors: 
+  
+  ${contributors}
+
+  ## Test: 
+  
+  ${test}
+
+  ## License: 
+  
+  ${license}
+
+  ## License URL: 
+  
+  ${licenseUrl}
+
+  ## GitHub UserName:
+  
+  ${githubUsername}
+
+  ## Email: 
+  
+  ${email}
 
 `;
 }

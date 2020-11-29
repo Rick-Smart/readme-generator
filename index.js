@@ -18,7 +18,7 @@ const questions = [
   },
   {
     message: "Enter the GitHub contributors usernames if any.",
-    name: "Contributors",
+    name: "contributors",
   },
   {
     message: "Provide examples on how to test your projct.",
@@ -27,6 +27,10 @@ const questions = [
   {
     message: "What license are you using?",
     name: "license",
+  },
+  {
+    message: "What is the license URL?",
+    name: "licenseUrl",
   },
   {
     message: "What is your GitHub username?",
